@@ -14,7 +14,11 @@ function divide(a, b) {
     return a / b;
 }
 
-console.log(sum(1, 2));
-console.log(subtract(4, 1));
-console.log(divide(10, 2));
-console.log(multiply(3, 4));
+function log(message) {
+    console.log(message);
+}
+
+log(sum(1, 2));
+log(subtract(4, 1));
+log(divide(10, 2));
+log(multiply(3, 4));
